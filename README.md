@@ -5,73 +5,57 @@
 ##### Iñaki Góngora
 ##### Tomás Fuentes
 
-# Getting Started with Create React App
+# Zephyr - Tienda de Joyas
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Zephyr es una tienda en línea dedicada a la venta de joyas exclusivas y elegantes. Aquí puedes encontrar una amplia variedad de productos diseñados para realzar tu estilo y resaltar tu belleza. 
 
-## Available Scripts
+## Levantar el servicio
 
-In the project directory, you can run:
+Para poner en marcha el proyecto de forma sencilla y rápida, solo necesitas Docker y Docker Compose. Sigue los pasos a continuación:
 
-### `npm start`
+### Prerequisitos
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [Docker](https://www.docker.com/get-started) instalado en tu máquina.
+- [Docker Compose](https://docs.docker.com/compose/install/) instalado en tu máquina.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Pasos para levantar el servicio
 
-### `npm test`
+1. Clona este repositorio a tu máquina local:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    ```bash
+    git clone https://github.com/tu_usuario/zephyr.git
+    cd zephyr
+    ```
 
-### `npm run build`
+2. Levanta el servicio usando Docker Compose:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+    ```bash
+    docker-compose up
+    ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Abre tu navegador y ve a `http://localhost:8000` para acceder a la tienda de joyas Zephyr.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Descripción de los servicios
 
-### `npm run eject`
+- **Frontend:** La interfaz web de la tienda de joyas donde los usuarios pueden ver y comprar productos.
+- **Backend:** El servidor que maneja la lógica de negocio, procesamiento de pedidos y almacenamiento de productos.
+- **Base de Datos:** Almacena la información de los productos, usuarios y pedidos.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contribuciones
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Si deseas contribuir al desarrollo de Zephyr, por favor sigue estos pasos:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. Haz un fork del repositorio.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz un commit (`git commit -am 'Añadir nueva funcionalidad'`).
+4. Envía un pull request.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Licencia
 
-## Learn More
+Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+¡Gracias por visitar Zephyr, tu tienda de joyas online!
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
